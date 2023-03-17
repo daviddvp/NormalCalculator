@@ -1,0 +1,52 @@
+body { 
+    background-color: #1A1A1A;
+    color: white;
+}
+#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: absolute;
+    top: 30%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+}
+.screen {
+    height: 43px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.keys {
+    width: 250px;
+}
+
+.btn,
+.operator {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    border-style: hidden;
+}
+
+.btn{
+    color: white;
+    background-color: #404040;
+}
+
+.operator{
+    color: white;
+    background-color: #FFA100;
+}
+
+#beta{
+    color: white;
+    background-color: #FFA100;
+}
+#beta1{
+    color: white;
+    background-color: #626262;
+}
